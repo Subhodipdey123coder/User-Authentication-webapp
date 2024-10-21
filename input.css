@@ -1,0 +1,16 @@
+.input{
+    padding: 0.6rem;
+    margin-top: 0.6rem;
+    outline: none; /*when i clck the input it does not show the outline of input*/
+    border-radius: 5px;
+    border: 2px solid rgb(222, 205, 205);
+    width: 100% ;
+}
+.input:hover{
+    border: 2px solid rgb(35, 117, 248);
+    transition: 0.5s ease-in-out;
+}
+.input:focus{
+    border: 2px solid rgb(44, 248, 78);
+    transition: 0.5s ease-in-out;
+}
